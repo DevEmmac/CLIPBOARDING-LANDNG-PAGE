@@ -1,0 +1,120 @@
+body {
+    background: rgb(62, 59, 59);
+    margin: o;
+    top: 0;
+}
+.container {
+    display: block;
+    width: 420px;
+    height: max-content;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+.min-container {
+    border: 2px solid transparent;
+    width: 360px;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8, .text9, .text10 {
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 30px;
+}
+.logoC {
+    width: 360px;
+    background-image: url(images/bg-header-mobile.png);
+}
+#cc {
+    margin: 140px 50px 50px 50px;
+}
+.text1 > h2 {
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.text2 > h3, .text3 > h3, .text4 > h3, .text5 > h3, .text6 > h3, .text7 > h3, .text8 > h3, .text9 > h3, .text10 > h3 {
+    font-size: 27px;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-top: 20px;
+}
+.text1 > p{
+    font-size: 18px;
+    color:hsl(201, 11%, 66%);
+}
+.load1, .load2 {
+    padding: 21px 5px;
+    border-radius: 45px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    color: white;
+}
+.load1 {
+    background: hsl(171, 66%, 44%);
+    margin-top: 60px
+}
+.load2 {
+    background:  hsl(233, 100%, 69%);
+    margin-top: 25px;
+}
+#computer {
+    width: 360px;
+    height: 350px;
+    object-fit: contain;
+}
+#device {
+    width: 360px;
+    height: 335px;
+    object-fit: contain;
+}
+.pngs {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    width: 160px;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+#google, #ibm, #microsoft, #hp {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    
+}
+.text9 {
+    border: 1px solid transparent;
+    width: 100px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color:hsl(210, 10%, 33%);
+}
+#small{
+    margin-top: 100px;
+    width: px;
+    height: px;
+    border: 1px solid transparent;
+    background-size: 30px 50px;
+}
+.text10 {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+.attribution {
+  text-align: center;
+  color:hsl(210, 10%, 33%);
+  padding-top: 30px;
+}
+.attribution > a {
+    color: brown;
+}

@@ -1,0 +1,218 @@
+body {
+    background: rgb(62, 59, 59);
+    margin: o;
+    top: 0;
+}
+.container {
+    display: block;
+    width: 1500px;
+    height: max-content;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
+.min-container {
+    border: 2px solid transparent;
+    width: 1300px;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text1 > h2 {
+    font-weight: 700;
+    font-size: 55px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: hsl(210, 10%, 33%);
+}
+.text1, .text2, .text3, .text4, .text9, .text10 {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 30px;
+    font-size: 19px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+.logoC {
+    width: 100%;
+    height: 300px;
+    background-image: url(images/bg-header-desktop.png);
+    object-fit: contain;
+}
+#cc {
+    padding-top: 150px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text2 > h3, .text3 > h3, .text4 > h3, .text8 > h3, .text9 > h3, .text10 > h3 {
+    font-size: 45px;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-top: 10px;
+}
+.loaded {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+
+}
+.load1, .load2 {
+    background: hsl(171, 66%, 44%);
+    width: 200px;
+    border-radius: 45px;
+    border: 1px solid transparent;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.load1 {
+    background: hsl(171, 66%, 44%);
+    
+}
+.load2 {
+    background:  hsl(233, 100%, 69%);
+}
+.put {
+    border: 2px solid transparent;
+    width: 1400px;
+    height: max-content;
+    display: flex;
+    margin-top: 80px;
+    margin-left: -105px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+#computer {
+    width: 800px;
+    height: 600px;
+    margin-left: 0;
+    object-fit: contain;
+}
+.inside {
+    width: 335px;
+    height: max-content;
+    text-align: left;
+    margin-left: 110px;
+    margin-top: 80px;
+}
+.inside > p {
+    font-size: 15px;
+}
+.inside > h3 {
+    color: hsl(210, 10%, 33%);
+
+}
+#device {
+    width: 800px;
+    height: 600px;
+    margin-left: 0;
+    object-fit: contain;
+}
+.set1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1050px;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text5, .text6, .text7 {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.text5 > p, .text6 > p, .text7 {
+    font-size: 15px;
+}
+.text5 > h3, .text6 > h3, .text7 > h3 {
+    font-size: 25px;
+    color: hsl(210, 10%, 33%);
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-top: 20px;
+}
+.pngs {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid transparent;
+    width: min-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    gap: 100px;
+   
+}
+#google, #ibm, #microsoft, #hp {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    
+    
+}
+.text8 {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-top: 120px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+.text9 {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 130px;
+    background-color: aliceblue;
+
+   
+}
+.paragraph {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 130px;
+   
+    
+}
+.paragraph > p {
+    color: hsl(201, 11%, 66%); 
+    font-size: 17px;
+    width: 200px;
+    padding: 10px 7px 0 7px;
+    line-height: 40px;
+}
+#small{
+    margin-left: 70px;
+    margin-top: 30px;
+    width: px;
+    height: px;
+    border: 1px solid transparent;
+    background-size: 30px 50px;
+}
+.text10 {
+    display: flex;
+    justify-content: right;
+    margin-top: -40px;
+    gap: 35px;
+}
+.attribution {
+  text-align: center;
+  color:hsl(210, 10%, 33%);
+  padding-top: 30px;
+}
+.attribution > a {
+    color: black;
+}
